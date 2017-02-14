@@ -9,24 +9,36 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/jpaginate.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar navbar-default navbar-university">
       <div class="container">
-         <a href="./home.html"><img src="images/logo.jpg"></a>
-        <div class="logo-title"><span>软件工程精品课程</span></div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapse" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="./home.html"><img src="images/logo.jpg"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myCollapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-active"><a href="#">课程概况</a></li>
+            <li><a href="#">教学队伍</a></li>
+            <li><a href="#">教学内容</a></li>
+            <li><a href="#">教学条件</a></li>
+            <li><a href="#">课程特色</a></li>
+            <li><a href="#">课程资料</a></li>
+            <li><a href="#">课程笔记</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
     <div class="container course-main">
-      <div class="row course-list"></div>
-    
-      <div class="course-paginator">
-        <div class="paginator-list"></div>
-      </div>
+      
 
     </div>
 
@@ -37,7 +49,6 @@
 
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.paginate.js"></script>
     <script src="js/script.js"></script>
 </body>
 

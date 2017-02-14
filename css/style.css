@@ -1,0 +1,133 @@
+body {
+    font: 14px/1.5 arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
+    background: #fbfbfb;
+}
+a {
+    color: #5a5a5a;
+}
+a:hover,a:focus {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+.navbar-university {
+    height: 70px;
+    box-shadow: 0 1px 10px #dadada;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-university img{
+    height: 50px;
+    margin-top: 10px;
+}
+.navbar-university .navbar-collapse {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei";
+}
+.navbar-university .navbar-nav {
+    text-align: center;
+    background: #fff
+}
+.navbar-university .navbar-toggle {
+    border: none;
+    margin-top: 20px;
+}
+.navbar-university .navbar-toggle:hover,
+.navbar-university .navbar-toggle:focus {
+    background-color: #fff;
+}
+
+.navbar-university .navbar-collapse .navbar-nav>li>a:hover{
+    color: #1797b9;
+}
+
+.logo-title {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    float: right;
+}
+.logo-title span {
+	font-size: 24px;
+	color: #1797b9;
+	font-family: "Microsoft JhengHei";
+}
+
+.course-main {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    min-height: 1000px
+}
+
+.course-card {
+	background: white;
+	margin-bottom: 20px;
+	height: 185px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.course-card:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.course-card:hover .course-info{
+	top: -55px;
+}
+
+.course-card img {
+	height: 120px;
+	width: 100%
+}
+
+.course-info {
+	box-sizing: border-box;
+    position: relative;
+    padding: 0 20px;
+    transition: top .5s;
+    top: -30px;
+    height: 144px;
+    width: 100%;
+    background: #fff
+}
+.course-info p {
+	margin: 0;
+	padding: 16px 0 6px;
+	font-size: 14px;
+	color: #07111b;
+}
+.course-info span {
+	color: #93999f;
+	font-size: 12px;
+}
+.course-state {
+	position: relative;
+    padding: 0 20px;
+    top: -115px;
+    width: 100%;
+    background-color: #fff;
+    color: #93999f;
+    font-size: 12px;
+    line-height: 45px;
+    text-align: right
+}
+.course-paginator {
+    width: 202px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.footer {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #333;
+    color: #ccc;
+    font-size: 12px;
+    position:absolute;
+    width: 100%
+}
