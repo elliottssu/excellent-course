@@ -44,6 +44,9 @@ a:hover,a:focus {
 .navbar-university .navbar-collapse .navbar-nav>li>a:hover{
     color: #1797b9;
 }
+.navbar-university .nav-active {
+    color: #1797b9!important
+}
 
 .logo-title {
     height: 50px;
