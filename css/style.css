@@ -11,7 +11,7 @@ a:hover,a:focus {
 }
 .navbar-university {
     height: 70px;
-    box-shadow: 0 1px 10px #dadada;
+    box-shadow: 0 1px 3px #d8d8d8;
     background: #fff;
     position: fixed;
     top: 0;
@@ -63,9 +63,10 @@ a:hover,a:focus {
 .course-main {
     margin-top: 100px;
     margin-bottom: 30px;
-    min-height: 1000px
 }
-
+.course-detail {
+    margin-top: 70px;
+}
 .course-card {
 	background: white;
 	margin-bottom: 20px;
@@ -123,6 +124,80 @@ a:hover,a:focus {
     margin-top: 20px;
 }
 
+
+.course-image {
+    background-image: url('../images/course-detail.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+
+}
+.course-image .course-detail-title {
+    margin-top: -100px;
+    font-size: 26px;
+    color: #f1f1f1;
+    text-align: center;
+}
+.opacity-black {
+    background-color: rgba(132, 127, 127, 0.6);
+    height: 180px;
+
+}
+
+.tabs-vertical-env {
+    background: #ffffff;
+    box-shadow: 0px 8px 14px #dadada;
+    margin: 0;
+    padding: 0
+
+}
+
+
+
+.tabs-vertical-env .nav.tabs-vertical {
+    padding-right: 0
+}
+.tabs-vertical-env .nav.tabs-vertical li{
+    border-top: none;
+    border-bottom: 1px solid #c5c5c5
+}
+
+.tabs-vertical-env .nav.tabs-vertical li:first-child{
+    border-top: 1px solid #c5c5c5;
+}
+
+.tabs-vertical-env .nav.tabs-vertical li.active{
+    background-color:#1797b9;
+
+}
+.tabs-vertical-env .nav.tabs-vertical li.active a{
+    color: #f9f4f4;
+}
+
+.tabs-vertical-env .tabs-vertical.nav>li>a:focus,.tabs-vertical-env .tabs-vertical.nav>li>a:hover {
+    background-color: transparent;
+}
+.tabs-vertical-env .tab-content {
+    padding: 30px;
+    border-left: 1px solid #c5c5c5;
+}
+.tabs-vertical-env .tab-content h2{
+    font-size: 24px;
+    margin-top: 8px;
+}
+.tabs-vertical-env .tab-content hr{
+    border-color: #ddd
+}
+
+.tabs-vertical-env .tab-content h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.tabs-vertical-env .tab-content p{
+    margin-bottom: 20px
+}
 
 .footer {
     height: 50px;
