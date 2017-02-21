@@ -2,13 +2,17 @@ body {
     font: 14px/1.5 arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif;
     background: #fbfbfb;
 }
+
 a {
     color: #5a5a5a;
 }
-a:hover,a:focus {
+
+a:hover,
+a:focus {
     color: #5a5a5a;
     text-decoration: none;
 }
+
 .navbar-university {
     height: 70px;
     box-shadow: 0 1px 3px #d8d8d8;
@@ -18,32 +22,38 @@ a:hover,a:focus {
     width: 100%;
     z-index: 100;
 }
-.navbar-university img{
+
+.navbar-university img {
     height: 50px;
     margin-top: 10px;
 }
+
 .navbar-university .navbar-collapse {
     margin-top: 10px;
     font-size: 16px;
     font-weight: bold;
     font-family: "Microsoft JhengHei";
 }
+
 .navbar-university .navbar-nav {
     text-align: center;
     background: #fff
 }
+
 .navbar-university .navbar-toggle {
     border: none;
     margin-top: 20px;
 }
+
 .navbar-university .navbar-toggle:hover,
 .navbar-university .navbar-toggle:focus {
     background-color: #fff;
 }
 
-.navbar-university .navbar-collapse .navbar-nav>li>a:hover{
+.navbar-university .navbar-collapse .navbar-nav>li>a:hover {
     color: #1797b9;
 }
+
 .navbar-university .nav-active {
     color: #1797b9!important
 }
@@ -54,41 +64,45 @@ a:hover,a:focus {
     margin-top: 10px;
     float: right;
 }
+
 .logo-title span {
-	font-size: 24px;
-	color: #1797b9;
-	font-family: "Microsoft JhengHei";
+    font-size: 24px;
+    color: #1797b9;
+    font-family: "Microsoft JhengHei";
 }
 
 .course-main {
     margin-top: 100px;
     margin-bottom: 30px;
 }
+
 .course-detail {
     margin-top: 70px;
 }
+
 .course-card {
-	background: white;
-	margin-bottom: 20px;
-	height: 185px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    background: white;
+    margin-bottom: 20px;
+    height: 185px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
+
 .course-card:hover {
-	box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-.course-card:hover .course-info{
-	top: -55px;
+.course-card:hover .course-info {
+    top: -55px;
 }
 
 .course-card img {
-	height: 120px;
-	width: 100%
+    height: 120px;
+    width: 100%
 }
 
 .course-info {
-	box-sizing: border-box;
+    box-sizing: border-box;
     position: relative;
     padding: 0 20px;
     transition: top .5s;
@@ -97,18 +111,21 @@ a:hover,a:focus {
     width: 100%;
     background: #fff
 }
+
 .course-info p {
-	margin: 0;
-	padding: 16px 0 6px;
-	font-size: 14px;
-	color: #07111b;
+    margin: 0;
+    padding: 16px 0 6px;
+    font-size: 14px;
+    color: #07111b;
 }
+
 .course-info span {
-	color: #93999f;
-	font-size: 12px;
+    color: #93999f;
+    font-size: 12px;
 }
+
 .course-state {
-	position: relative;
+    position: relative;
     padding: 0 20px;
     top: -115px;
     width: 100%;
@@ -118,12 +135,12 @@ a:hover,a:focus {
     line-height: 45px;
     text-align: right
 }
+
 .course-paginator {
     width: 202px;
     margin: 0 auto;
     margin-top: 20px;
 }
-
 
 .course-image {
     background-image: url('../images/course-detail.jpg');
@@ -131,18 +148,18 @@ a:hover,a:focus {
     background-size: cover;
     height: 180px;
     width: 100%;
-
 }
+
 .course-image .course-detail-title {
     margin-top: -100px;
     font-size: 26px;
     color: #f1f1f1;
     text-align: center;
 }
-.opacity-black {
-    background-color: rgba(132, 127, 127, 0.6);
-    height: 180px;
 
+.opacity-black {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 180px;
 }
 
 .tabs-vertical-env {
@@ -150,52 +167,55 @@ a:hover,a:focus {
     box-shadow: 0px 8px 14px #dadada;
     margin: 0;
     padding: 0
-
 }
-
-
 
 .tabs-vertical-env .nav.tabs-vertical {
     padding-right: 0
 }
-.tabs-vertical-env .nav.tabs-vertical li{
+
+.tabs-vertical-env .nav.tabs-vertical li {
     border-top: none;
     border-bottom: 1px solid #c5c5c5
 }
 
-.tabs-vertical-env .nav.tabs-vertical li:first-child{
+.tabs-vertical-env .nav.tabs-vertical li:first-child {
     border-top: 1px solid #c5c5c5;
 }
 
-.tabs-vertical-env .nav.tabs-vertical li.active{
-    background-color:#1797b9;
-
+.tabs-vertical-env .nav.tabs-vertical li.active {
+    background-color: #1797b9;
 }
-.tabs-vertical-env .nav.tabs-vertical li.active a{
+
+.tabs-vertical-env .nav.tabs-vertical li.active a {
     color: #f9f4f4;
 }
 
-.tabs-vertical-env .tabs-vertical.nav>li>a:focus,.tabs-vertical-env .tabs-vertical.nav>li>a:hover {
+.tabs-vertical-env .tabs-vertical.nav>li>a:focus,
+.tabs-vertical-env .tabs-vertical.nav>li>a:hover {
     background-color: transparent;
 }
+
 .tabs-vertical-env .tab-content {
     padding: 30px;
     border-left: 1px solid #c5c5c5;
 }
-.tabs-vertical-env .tab-content h2{
+
+.tabs-vertical-env .tab-content h2 {
     font-size: 24px;
     margin-top: 8px;
 }
-.tabs-vertical-env .tab-content hr{
+
+.tabs-vertical-env .tab-content hr {
     border-color: #ddd
 }
 
-.tabs-vertical-env .tab-content h4{
+.tabs-vertical-env .tab-content h4 {
     font-weight: bold;
     margin-bottom: 20px;
     font-size: 16px;
 }
-.tabs-vertical-env .tab-content p{
+
+.tabs-vertical-env .tab-content p {
     margin-bottom: 20px
 }
 
@@ -206,6 +226,12 @@ a:hover,a:focus {
     background: #333;
     color: #ccc;
     font-size: 12px;
-    position:absolute;
+    position: absolute;
     width: 100%
+}
+
+@media (max-width: 768px) {
+    .navbar-university .navbar-collapse {
+        margin-top: 0!important
+    }
 }

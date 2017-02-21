@@ -14,39 +14,47 @@
 
 <body>
     <nav class="navbar navbar-default navbar-university">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapse" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="../home.html"><img src="../images/logo.jpg"></a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapse" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../home.html"><img src="../images/logo.jpg"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="detail01.html">课程概况</a></li>
+                    <li><a href="detail02.html">教学队伍</a></li>
+                    <li><a href="detail03.html">教学内容</a></li>
+                    <li><a href="detail04.html">教学条件</a></li>
+                    <li><a href="detail05.html">课程特色</a></li>
+                    <li><a href="detail06.html">课程资料</a></li>
+                    <li><a href="detail07.html" class="nav-active">课程笔记</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="detail01.html">课程概况</a></li>
-            <li><a href="detail02.html">教学队伍</a></li>
-            <li><a href="detail03.html">教学内容</a></li>
-            <li><a href="detail04.html">教学条件</a></li>
-            <li><a href="detail05.html">课程特色</a></li>
-            <li><a href="detail06.html">课程资料</a></li>
-            <li><a href="detail07.html" class="nav-active">课程笔记</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
-
-    <div class="container course-main">
-      
-
+    <div class="container course-main course-detail">
+        <div class="course-image">
+            <div class="opacity-black"></div>
+            <div class="course-detail-title"><span>《 Power System(IBM i)企业级服务器应用开发 》</span></div>
+        </div>
+        <div class="tabs-vertical-env row">
+            <ul class="nav tabs-vertical col-sm-2 hidden-xs" role="tablist">
+                <li role="presentation" class="active"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">课程笔记</a></li>
+            </ul>
+            <div class="tab-content col-md-10 col-xs-12">
+                <div role="tabpanel" class="tab-pane active" id="note">
+                    <h2>课程笔记</h2>
+                    <hr>
+                    <p>建设中...</p>
+                </div>
+            </div>
+        </div>
     </div>
-
     <footer class="footer">版权所有 © 北京工业大学 京公网安备：110402430086 COPYRIGHT © BEIJING UNIVERSITY OF TECHNOLOGY</footer>
-
-
-
-
     <script src="../js/jquery-3.0.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>

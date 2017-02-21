@@ -1,13 +1,13 @@
 $(function() {
-
+    //自适应高度
     function courseHeight() {
         var height = $(window).height() - 180;
-        $('.course-main').css('min-height',height + 'px');
-        $('.tab-content').css('min-height',height - 150 + 'px');
+        $('.course-main').css('min-height', height + 'px');
+        $('.tab-content').css('min-height', height - 150 + 'px');
     }
     courseHeight()
-    $(window).resize(function(){
-       courseHeight()
+    $(window).resize(function() {
+        courseHeight()
     });
 
     var data = {
@@ -135,24 +135,15 @@ $(function() {
             "view": 1715
         }]
     }
+
+    //首页列表遍历显示
     var list = data.data;
     $.each(list, function(key, val) {
         $('.course-list').append('<div class="col-sm-3 col-xs-6"><a href="' + val.url + '" target="_blank"><div class="course-card"><img alt="' + val.title + '" src="' + val.img + '"><div class="course-info"><p>' + val.title + '</p><span>' + val.subtitle + '</span></div><div class="course-state"><i class="fa fa-eye"> ' + val.view + '</i></div></div></a></div>')
     })
 
 
-    //首页分页
-    $('.paginator-list').paginate({
-        count: 10,
-        start: 1,
-        display: 5,
-        border: false,
-        text_color: '#444',
-        background_color: '#fbfbfb',
-        text_hover_color: '#1797b9',
-        images: false,
-        rotate: false
-    });
+
 
 
 

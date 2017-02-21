@@ -14,39 +14,58 @@
 
 <body>
     <nav class="navbar navbar-default navbar-university">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapse" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="../home.html"><img src="../images/logo.jpg"></a>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myCollapse" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="../home.html"><img src="../images/logo.jpg"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="detail01.html">课程概况</a></li>
+                    <li><a href="detail02.html">教学队伍</a></li>
+                    <li><a href="detail03.html">教学内容</a></li>
+                    <li><a href="detail04.html" class="nav-active">教学条件</a></li>
+                    <li><a href="detail05.html">课程特色</a></li>
+                    <li><a href="detail06.html">课程资料</a></li>
+                    <li><a href="detail07.html">课程笔记</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="detail01.html">课程概况</a></li>
-            <li><a href="detail02.html">教学队伍</a></li>
-            <li><a href="detail03.html">教学内容</a></li>
-            <li><a href="detail04.html" class="nav-active">教学条件</a></li>
-            <li><a href="detail05.html">课程特色</a></li>
-            <li><a href="detail06.html">课程资料</a></li>
-            <li><a href="detail07.html">课程笔记</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
-
-    <div class="container course-main">
-      
-
+    <div class="container course-main course-detail">
+        <div class="course-image">
+            <div class="opacity-black"></div>
+            <div class="course-detail-title"><span>《 Power System(IBM i)企业级服务器应用开发 》</span></div>
+        </div>
+        <div class="tabs-vertical-env row">
+            <ul class="nav tabs-vertical col-sm-2 hidden-xs" role="tablist">
+                <li role="presentation" class="active"><a href="#bulid" aria-controls="bulid" role="tab" data-toggle="tab">教材使用与建设</a></li>
+                <li role="presentation"><a href="#environment" aria-controls="environment" role="tab" data-toggle="tab">网络教学环境</a></li>
+            </ul>
+            <div class="tab-content col-md-10 col-xs-12">
+                <div role="tabpanel" class="tab-pane active" id="bulid">
+                    <h2>教材使用与建设</h2>
+                    <hr>
+                    <p>建设中...</p>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="environment">
+                    <h2>网络教学环境</h2>
+                    <hr>
+                    <p>软件学院配备高端教学用PC 机房，实现开放式教学，对学生免费开放。具体情况如下：</p>
+                    <p>1. 计算机房共6个，有400多台P4 PC，其中最大机房有84台；</p>
+                    <p>2. 机房和实验室的所有PC全部连网并接入校园网；</p>
+                    <p>3. 机房和实验室均配置多媒体教学系统。</p>
+                    <p>4. 为保证教学效果，所有PC上安装了学院院自己开发的视频同步显示软件，使每台学生PC的显示自动与讲台PC屏幕同步显示。</p>
+                    <p>软件学院教室和机房中的微机通过100M以太网与服务器相连，并通过光纤接入同济大学校园网。这些微机和服务器都安装了本课程网络教学所需要的各种软件资源。</p>
+                </div>
+            </div>
+        </div>
     </div>
-
     <footer class="footer">版权所有 © 北京工业大学 京公网安备：110402430086 COPYRIGHT © BEIJING UNIVERSITY OF TECHNOLOGY</footer>
-
-
-
-
     <script src="../js/jquery-3.0.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/script.js"></script>

@@ -15,30 +15,37 @@
 
 <body>
     <nav class="navbar navbar-default navbar-university">
-      <div class="container">
-         <a href="./home.html"><img src="images/logo.jpg"></a>
-        <div class="logo-title"><span>软件工程精品课程</span></div>
-      </div>
+        <div class="container">
+            <a href="./home.html"><img src="images/logo.jpg"></a>
+            <div class="logo-title"><span>软件工程精品课程</span></div>
+        </div>
     </nav>
-
     <div class="container course-main">
-      <div class="row course-list"></div>
-    
-      <div class="course-paginator">
-        <div class="paginator-list"></div>
-      </div>
-
+        <div class="row course-list"></div>
+        <div class="course-paginator">
+            <div class="paginator-list"></div>
+        </div>
     </div>
-
     <footer class="footer">版权所有 © 北京工业大学 京公网安备：110402430086 COPYRIGHT © BEIJING UNIVERSITY OF TECHNOLOGY</footer>
-
-
-
-
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.paginate.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    $(function() {
+        $('.paginator-list').paginate({
+            count: 10,
+            start: 1,
+            display: 5,
+            border: false,
+            text_color: '#444',
+            background_color: '#fbfbfb',
+            text_hover_color: '#1797b9',
+            images: false,
+            rotate: false
+        })
+    })
+    </script>
 </body>
 
 </html>
